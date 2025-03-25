@@ -50,5 +50,5 @@ To get started, clone the repository and install dependencies:
 
 ```bash
 git clone https://github.com/yourusername/patchscope-qwen.git
-cd patchscope-qwen
-pip install -r requirements.txt
+
+More reasonably, I recommend those who are interested in this project to use kaggle or google colab to use the free gpu resources .
