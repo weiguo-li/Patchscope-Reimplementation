@@ -23,6 +23,7 @@ Our study aims to answer the following questions: (1) How does the Qwen model en
 In this section, I explore how the Qwen series model decodes information to predict the next token, using PatchScope to probe its internal representations.
 
 ![The result of Qwen0.5B](Decoding_of_next_token_Prediction/Qwen0.5B.png)
+![The result of Qwen1.5B](Decoding_of_next_token_Prediction/Qwen1.5B.png)
 
 To quantify the model’s behavior, I measure precision across layers, illustrating how predictive accuracy evolves as information flows through the network. Figure 1 presents these findings:
 
