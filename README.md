@@ -99,13 +99,13 @@ This suggests that earlier layers in the model encode more concrete, attribute-s
 
 
 ## Conclusion
-This repository presents a reimplementation of PatchScope and its application to the Qwen series model, focusing on decoding next token prediction and extract specific attributes. Through precision and surprisal analyses, I uncover layer-wise dynamics that enhance our understanding of Qwen’s behavior. My work is fully reproducible, with code and results in readme.txt. Future directions include extending PatchScope to other LLMs and exploring contextual variations in prediction.
-
+This repository presents a reimplementation of PatchScope and applies it to the Qwen series models to investigate the decoding of next-token predictions and the extraction of specific attributes. By employing precision and surprisal analyses across the models’ layers, I reveal intricate layer-wise dynamics that shed light on how Qwen processes and generates predictions, deepening our understanding of its internal behavior. For instance, precision measurements highlight how predictive accuracy evolves, while surprisal quantifies the model’s uncertainty, together offering a comprehensive view of Qwen’s representational capabilities. My implementation ensures full reproducibility, with detailed code, experimental scripts, and results documented in readme.txt within the repository. Looking ahead, future directions include extending this PatchScope reimplementation to other large language models (LLMs) to compare architectural differences and exploring how contextual variations—such as prompt complexity or domain-specific inputs— influence prediction patterns, potentially uncovering broader insights into transformer-based decoding mechanisms.
 
 ### Features
 - Faithful reimplementation of PatchScope
 - Application to Qwen series model
 - Analysis of next token prediction with visuals
+- Extract specific attrbutes
 
 ---
 
